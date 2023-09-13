@@ -16,8 +16,10 @@ This is an analytical study focused on creating a predictive model to estimate t
 1. **Data Concatenation**: Datasets from different projects are merged, NaN values are handled, and the BVO/GO ratio is computed.
 2. **Test Data**: A distinct dataset is utilized for testing to assess the model's performance on completely unfamiliar data.
 3. **Correlation Analysis**: The main focus lies on understanding the correlation between different features and the BVO/GO ratio to refine the predictive model.
+4. **SVR Model Development**: Support Vector Regression (SVR) was chosen as the modeling approach. SVR is particularly suited for this task as it's designed to find a hyperplane that best divides a dataset into classes, making it apt for regression tasks where the aim is to predict a continuous output. The model's hyperparameters were tuned to ensure optimal performance on the dataset.
 
 ## Conclusion
 
-This analytical study aims to develop a robust predictive model that can estimate the BVO/GO ratio for residential units. By considering various factors, especially geometric ones, the model aims to provide accurate estimates that can be invaluable in the real estate and construction sectors.
+The primary goal of this analytical study is to develop a robust predictive model that can accurately estimate the BVO/GO ratio for residential units. By considering diverse factors, especially geometric ones, the model seeks to provide invaluable insights for the real estate and construction sectors.
+
 
